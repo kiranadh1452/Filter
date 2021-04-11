@@ -1,0 +1,27 @@
+<html>
+<head> <title> FilterFun By Kiran </title>
+<link rel="stylesheet" type="text/css" href="files/abc.css" > </head>
+
+<body>
+<h1> FilterIt</h1>
+<canvas id="d1"> </canvas>
+<canvas id="d2"> </canvas>
+<h3> Load Image </h3> <p> Upload :
+  <input type ="file" multiple"false" accept="images/*" onchange="upload()" id="name" > </p>
+<h3> Use Filter </h3>
+<input type="button" value="Grayscale" id="grey" onclick="makeGray()" >
+<input type="button" value="Reddish" id="red" onclick="makeRed()" >
+<input type="button" value="Greenish" id="grn" onclick="makeGreen()" >
+<input type="button" value="RGB Stripes" id="stripe" onclick="makeStripe()" >
+<input type="button" value="Romantic" id="rom" onclick="Rom()" >
+<input type="button" value="Blur" id="blurr" onclick="Blur()" >
+<input type="button" value="Rainbow" id="rain" onclick="rainbow()" >
+
+<p> <input type="button" value="Reset" id="res" onclick="reset()" > </p>
+
+<a href="#" class="button" id="btn-download" download="my-file-name.png">Download</a>
+
+<script src="files/backe.js"> </script>
+<script src="files/SimpleImage.js"> </script>
+</body>
+</html>
